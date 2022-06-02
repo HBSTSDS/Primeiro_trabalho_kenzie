@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Kenzie HTML</title>
+    <link rel="icon" href="./imagem_certa.png" />
+</head>
+
+<body>
+    <main>
+    <h1>Blog da Kenzie</h1>
+    <nav>
+        <ul>
+            <li><a href="#top">HOME</a></li>
+            <li><a href="#mais-vistos">Mais Vistos</a></li>
+            <li><a href="#ultimos-conteudos">Ultimos Conteudos</a></li>
+            <li><a href="#assuntos">Assuntos mais Relevantes</a></li>
+        </ul>
+    </nav>
+    <h1>cadastro</h1>
+    <form>
+        <label for="Nome">Nome</label>
+        <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome aqui..." required="true" />
+        
+        <label for="Numero">Numero de telefone</label>
+        <input type="number" id="Numero" name="numero" placeholder="Digite seu número aqui..." required="true"/>
+        <label for="Senha">Senha</label>
+        <input type="password" id="Senha" name="senha" placeholder="Digite sua senha aqui..." maxlength="8" required="true"/>
+        <label for="Senha2">Digite novamente sua senha</label>
+        <input type="password" id="Senha2" name="senha2" placeholder="Sua senha novamente..." maxlength="8" required="true"/>
+        <button type="submit">Cadastrar</button> 
+    </form>
+    <section>
+        <h1 id="mais-vistos">Mais vistos</h1>
+        <img src="https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2022/03/2022-03-09.png?fit=640%2C336&ssl=1" alt="imagem dois mais vistos"
+        width="300"
+        height="300">
+        <h3>Tecnologia</h3>
+        <a href="https://kenzie.com.br/blog/o-que-e-python/" target="_blank">O QUE É PYTHON, PARA QUE SERVE E POR QUE APRENDER?</a>
+        <h3>Cultura Tech</h3>
+        <a href="https://kenzie.com.br/blog/logica-de-programacao/" target="_blank">LÓGICA DE PROGRAMAÇÃO: O QUE É E POR QUE É IMPORTANTE??</a>
+        <h3>Mercado de Trabalho</h3>
+        <a href="https://kenzie.com.br/blog/logica-de-programacao/" target="_blank">ÁREA DE TI: QUAL A ÁREA MAIS BEM PAGA E COMO INICIAR EM TI</a>
+    </section>
+    <article>
+        <h1 id="ultimos-conteudos">Últimos Conteudos</h1>
+            <ul>
+                <li> <a href="https://kenzie.com.br/blog/framework/" target="_blank">O QUE SÃO FRAMEWORKS E POR QUE SÃO IMPORTANTES PARA OS DEVS</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/modelagem-de-dados/" target="_blank">MODELAGEM DE DADOS: O QUE É, QUAIS SÃO AS ETAPAS E COMO FAZER</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/segundo-idioma/" target="_blank">A IMPORTÂNCIA DE UM SEGUNDO IDIOMA PARA A ÁREA DE TI</a></li> 
+                
+                <li><a href="https://kenzie.com.br/blog/habilidades-de-um-desenvolvedor/" target="_blank">HABILIDADES DE UM DESENVOLVEDOR WEB: HARD SKILLS E SOFT SKILLS</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/manifesto-agil/" target="_blank">MANIFESTO ÁGIL: O QUE É E QUAIS SÃO OS 12 PRINCÍPIOS ÁGEIS</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/sistema-operacional/" target="_blank">O QUE É SISTEMA OPERACIONAL E SEU PAPEL NA PROGRAMAÇÃO</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/placeholder/" target="blank">O QUE É PLACEHOLDER E COMO UTILIZÁ-LO EM SEU PROJETO</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/testes-automatizados/" target="_blank">TESTES AUTOMATIZADOS: O QUE SÃO E COMO UTILIZÁ-LOS</a></li>
+                
+                <li><a href="https://kenzie.com.br/blog/prototipagem/" target="_blank">PROTOTIPAGEM: COMO FUNCIONA E SUA IMPORTÂNCIA PARA ÁREA DE TI</a></li>
+            </ul>   
+    </article>
+    <article>
+        <h1 id="assuntos">Assuntos Mais Relevantes:</h1>
+        <ol>
+            <li><a href="https://kenzie.com.br/blog/categoria/carreira/">Carreira</a></li>
+        
+            <li/li><a href="https://kenzie.com.br/blog/categoria/front-end/">Front-End</a></li>
+        
+            <li/li><a href="https://kenzie.com.br/blog/categoria/back-end/">Back-End</a></li>
+            
+            <li/li><a href="https://kenzie.com.br/blog/categoria/institucional/">Insticional</a></li>
+        
+            <li/li><a href="https://kenzie.com.br/blog/categoria/tecnologia/">Tecnologia</a></li>
+        </ol>
+    </article>
+    <h1>Quer entrar em contato?</h1>
+    <form>
+        <p>Qual o metodo de contato?</p>
+        <label for="email">E-email</label>
+        <input  id="email" type="radio" name="metodoDeContato" value="email">
+        
+        
+        <label for="telefone">telefone</label>
+        <input id="telefone" type="radio" name="metodoDeContato" value="telefone">
+
+        <label for="whatsapp">Whatsapp</label>
+        <input id="whatsapp" type="radio" name="metodoDeContato" value="whatsapp">
+
+        <button type="submit">enviar</button>
+    </form>
+</main>
+<footer>
+    <h1>redes sociais</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/kenzieacademybr/">facebook</a></li>
+        <li><a href="https://www.instagram.com/kenzieacademybr/">instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UC6rcCbDzhVoIm1V7WnwPDIQ?sub_confirmation=1">youtube</a></li>
+        <li><a href="https://www.linkedin.com/school/kenzie-academy-brasil/">linkedin</a></li>
+        <li><a href="https://twitter.com/kenzie_br">twitter</a></li>
+    </ul>
+</footer>
+</body>
+
+
+</html>
